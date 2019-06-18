@@ -132,9 +132,8 @@ body {
 #resultsmoo{
     text-align: center;
 }
-#ribbon {
+.ribbon {
     display: block;
-    padding: 100px;
     margin-left: auto;
     margin-right: auto;
 }
