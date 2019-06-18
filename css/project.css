@@ -1,0 +1,150 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+#container {
+    height: 90%;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 1%;
+    margin-right: 10px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: #31b6ce;
+}
+#scoreHelp {
+    text-align: center;
+    font-size: 25px;
+    background-color: #eaeaea;
+}
+.bruce {
+    position: absolute;
+    height: 15%;
+    width: 8%;
+    top: 10%;
+    border: 2px solid black;
+    background: url('bruce.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+#bruce1 {
+    left: 15%;
+}
+#bruce2 {
+    left: 45%;
+}
+#bruce3 {
+    left: 75%;
+}
+.cow {
+    position: absolute;
+    top: 18%;
+    height: 5%;
+    width: 3%;
+    background: url('cow.png');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    z-index: 99;
+}
+#cow1 {
+    left: 15.2%;
+}
+#cow2 {
+    top: 15%;
+    left: 45.5%;
+}
+#cow3 {
+    top: 12%;
+    left: 75.5%;
+}
+.miss {
+    display: none;
+    position: absolute;
+    bottom: 3.7%;
+    height: 6%;
+    width: 3%;
+    background: url('moo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 12;
+}
+#miss1 {
+    left: 15.3%;
+}
+#miss2 {
+    left: 45.5%;
+}
+#miss3 {
+    left: 75.8%;
+}
+#floor {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: #292929;
+    bottom: 0;
+    z-index: 10;
+}
+#george {
+    height: 100px;
+    width: 85px;
+    position: absolute;
+    bottom: 10.2%;
+    border: 2px solid black;
+    background: url('george.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 11;
+}
+#score1 {
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    top: 3%;
+    left: 64%;
+}
+#results {
+    border: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: #31b6ce;
+    color: black;
+    top: 40%;
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+}
+#resultsPage {
+    height: auto;
+    width: auto;
+    background-color: #31b6ce;
+}
+#resultsheader{
+    text-align: center;
+}
+#resultsmoo{
+    text-align: center;
+}
+#ribbon {
+    display: block;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#copy {
+    text-align: center;
+}
+.homebutton {
+    font-size: 15px;
+    margin: auto;
+    display: block;
+    width: 100px;
+    color: black;
+}
